@@ -1,9 +1,105 @@
-<mxfile host="app.diagrams.net" modified="2024-04-20T22:10:26.498Z" agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.2.7" etag="VXBoaS9UZiy5tsiUSYuJ" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-20T22:21:48.583Z" agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="GjTJQMB8K09E3MIBMnbz" version="24.2.7" type="github">
   <diagram name="Page-1" id="sjY-XMRXOASf1h1eS6N1">
-    <mxGraphModel>
+    <mxGraphModel dx="1480" dy="833" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-196" y="-122" width="317" height="408" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-2" value="Welcome" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-187" y="-112" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-6" value="Introduction text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-187" y="-73" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-7" value="Logic" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-187" y="31" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-8" value="Faith" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-189" y="151" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-9" value="Introduction to logic text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-187" y="78" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-10" value="Introduction to faith text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-187" y="196" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="233" y="-120" width="317" height="408" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-19" value="Welcome" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="242" y="-110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-20" value="Introduction text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="242" y="-71" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-21" value="Logic" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="242" y="33" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-22" value="Faith" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="153" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-23" value="Introduction to logic text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="242" y="80" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-24" value="Introduction to faith text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="242" y="198" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="669" y="-120" width="317" height="408" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-26" value="Welcome" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="678" y="-110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-27" value="Introduction text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="678" y="-71" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-28" value="Logic" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="678" y="33" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-29" value="Faith" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="676" y="153" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-30" value="Introduction to logic text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="678" y="80" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-31" value="Introduction to faith text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="678" y="198" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1098" y="-115" width="317" height="408" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-33" value="Welcome" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1107" y="-105" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-34" value="Introduction text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1107" y="-66" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-35" value="Logic" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1107" y="38" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-36" value="Faith" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="158" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-37" value="Introduction to logic text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1107" y="85" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-38" value="Introduction to faith text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1107" y="203" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-39" value="Home page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-196" y="-161" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-40" value="Home page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="242" y="-161" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-41" value="Home page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="676" y="-161" width="291" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="mjjmyF8rEM8PW-lOi5U1-42" value="Home page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1101" y="-161" width="291" height="22" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
