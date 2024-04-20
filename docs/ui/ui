@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-20T23:09:25.198Z" agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="xZuTT6BR2vuvF8n5fcrS" version="24.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-20T23:11:41.486Z" agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="akAdmuMMi_RmImy8a8rb" version="24.2.7" type="github" pages="3">
   <diagram name="Logic pages" id="sjY-XMRXOASf1h1eS6N1">
     <mxGraphModel dx="1824" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -318,13 +318,13 @@
         <mxCell id="l5gbeS5YW-t0KNSbYs_t-17" value="Introduction text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="899" y="290" width="291" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="l5gbeS5YW-t0KNSbYs_t-18" value="Logic" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="l5gbeS5YW-t0KNSbYs_t-18" value="Faith" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="899" y="330" width="205" height="22" as="geometry" />
         </mxCell>
         <mxCell id="l5gbeS5YW-t0KNSbYs_t-19" value="Observation 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="899" y="407" width="210" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="l5gbeS5YW-t0KNSbYs_t-20" value="Introduction to logic text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="l5gbeS5YW-t0KNSbYs_t-20" value="Introduction faith text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="899" y="366" width="217" height="22" as="geometry" />
         </mxCell>
         <mxCell id="l5gbeS5YW-t0KNSbYs_t-21" value="Observation 1 text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
