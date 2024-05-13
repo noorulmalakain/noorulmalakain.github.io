@@ -16,6 +16,7 @@
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/script.js"></script>
 
+    <!-- start main accordion -->
     <div class="accordion" id="accordionMain">
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingIntro">
@@ -29,33 +30,39 @@
           </div>
         </div>
       </div>
+      <!-- start reason item -->
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingReason">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseReason" aria-expanded="false" aria-controls="collapseReason">
             Reason
           </button>
         </h2>
-        
         <div id="collapseReason" class="accordion-collapse collapse" aria-labelledby="headingReason" data-bs-parent="#accordionMain">
           <div class="accordion-body">
             <strong>Welcome to the Reason section of NM.</strong>
+            <!-- start reason accordion -->
             <div class="accordion" id="accordionReason">
+              <!-- start obs1 item -->
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingObs1">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseObs1" aria-expanded="true" aria-controls="collapseObs1">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseObs1" aria-expanded="false" aria-controls="collapseObs1">
                     Observation1
                   </button>
                 </h2>
-                <div id="collapseObs1" class="accordion-collapse collapse show" aria-labelledby="headingObs1" data-bs-parent="#accordionReason">
+                <div id="collapseObs1" class="accordion-collapse collapse" aria-labelledby="headingObs1" data-bs-parent="#accordionReason">
                   <div class="accordion-body">
                     <strong>Observation 1</strong>
                   </div>
                 </div>
               </div>
+              <!-- end obs1 item -->
             </div>
+            <!-- end reason accordion -->
           </div>
         </div>
       </div>
+      <!-- end reason item -->
+      <!-- start faith item -->
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingFaith">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaith" aria-expanded="false" aria-controls="collapseFaith">
@@ -65,9 +72,29 @@
         <div id="collapseFaith" class="accordion-collapse collapse" aria-labelledby="headingFaith" data-bs-parent="#accordionMain">
           <div class="accordion-body">
             <strong>Welcome to the Faith section of NM.</strong>
+            <!-- start arabic accordion -->
+            <div class="accordion" id="accordionArabic">
+              <!-- start obs1 item -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingArabic">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseArabic" aria-expanded="false" aria-controls="collapseArabic">
+                    Arabic
+                  </button>
+                </h2>
+                <div id="collapseArabic" class="accordion-collapse collapse" aria-labelledby="headingArabic" data-bs-parent="#accordionFaith">
+                  <div class="accordion-body">
+                    <strong>Welcome to the Arabic section of NM</strong>
+                  </div>
+                </div>
+              </div>
+              <!-- end obs1 item -->
+            </div>
+            <!-- end arabic accordion -->
           </div>
         </div>
       </div>
+      <!-- end faith item -->
+      <!-- start about item -->
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingAbout">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbout" aria-expanded="false" aria-controls="collapseAbout">
@@ -80,6 +107,8 @@
           </div>
         </div>
       </div>
+      <!-- end about item -->
     </div>
+    <!-- end main accordion -->
   </body>
 </html>
