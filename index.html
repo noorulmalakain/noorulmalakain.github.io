@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
-    <title>Noor ul Malakain</title>
+    <title>CloudWatching247</title>
   </head>
   <body>
     <h1>Hello, world!</h1>
@@ -16,349 +16,240 @@
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/script.js"></script>
 
-    <!-- start main accordion -->
-    <div class="accordion" id="accordionMain">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingIntro">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseIntro" aria-expanded="true" aria-controls="collapseIntro">
-            Introduction
-          </button>
-        </h2>
-        <div id="collapseIntro" class="accordion-collapse collapse show" aria-labelledby="headingIntro" data-bs-parent="#accordionMain">
-          <div class="accordion-body">
-            <strong>Welcome to Noor ul Malakain version <span id="appVersion">0.0.0</span>.</strong>
+    <!-- start observation collapse button -->
+    <p>
+        <a class="btn btn-primary mainblog" blog-data-type="observations" data-bs-toggle="collapse" href="#observationCollapse" role="button" aria-expanded="false" aria-controls="observationCollapse">
+          Observations
+        </a>
+    </p>
+    <!-- end observation collapse button -->
+    <!-- start observation collapse body -->
+    <div class="collapse" id="observationCollapse">
+      <form class="d-flex" id="observationSearch">
+        <input disabled class="form-control me-2" type="search" placeholder="Search by title -- Currently not available" aria-label="Search">
+        <button disabled class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <div class="card card-body">
+        <!-- start observationblog collapse button -->
+        <p>
+          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </p>
+        <p>
+            <a class="btn btn-primary blogpost" blog-data-id="obs1" data-bs-toggle="collapse" href="#observationblogCollapse" role="button" aria-expanded="false" aria-controls="observationblogCollapse">
+                Blog 1
+            </a>
+        </p>
+        <!-- end observationblog collapse button -->
+        <!-- start observationblog collapse body -->
+        <div class="collapse" id="observationblogCollapse">
+          <div class="card card-body">
+            <p>
+              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            </p>
           </div>
         </div>
+        <br>
+        <!-- end observationblog collapse body -->
       </div>
-      <!-- start reason item -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingReason">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseReason" aria-expanded="false" aria-controls="collapseReason">
-            Reason
-          </button>
-        </h2>
-        <div id="collapseReason" class="accordion-collapse collapse" aria-labelledby="headingReason" data-bs-parent="#accordionMain">
-          <div class="accordion-body">
-            <strong>Welcome to the Reason section of NM.</strong>
-            <!-- start reason accordion -->
-            <div class="accordion" id="accordionReason">
-              <!-- start obs1 item -->
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingObs1">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseObs1" aria-expanded="false" aria-controls="collapseObs1">
-                    Observation1
-                  </button>
-                </h2>
-                <div id="collapseObs1" class="accordion-collapse collapse" aria-labelledby="headingObs1" data-bs-parent="#accordionReason">
-                  <div class="accordion-body">
-                    <strong>Observation 1</strong>
-                  </div>
-                </div>
-              </div>
-              <!-- end obs1 item -->
-            </div>
-            <!-- end reason accordion -->
-          </div>
-        </div>
-      </div>
-      <!-- end reason item -->
-      <!-- start faith item -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingFaith">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaith" aria-expanded="false" aria-controls="collapseFaith">
-            Faith
-          </button>
-        </h2>
-        <div id="collapseFaith" class="accordion-collapse collapse" aria-labelledby="headingFaith" data-bs-parent="#accordionMain">
-          <div class="accordion-body">
-            <strong>Welcome to the Faith section of NM.</strong>
-            <!-- start arabic accordion -->
-            <div class="accordion" id="accordionArabic">
-                <!-- start nahw item -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingArabic">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseArabic" aria-expanded="false" aria-controls="collapseArabic">
-                        Arabic
-                      </button>
-                    </h2>
-                    <div id="collapseArabic" class="accordion-collapse collapse" aria-labelledby="headingArabic" data-bs-parent="#accordionArabic">
-                      <div class="accordion-body">
-                        <strong>Welcome to the Arabic section of NM</strong>
-                        <!-- start Nahw accordion -->
-                        <div class="accordion" id="accordionNahw">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingNahw">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNahw" aria-expanded="false" aria-controls="collapseNahw">
-                                    Nahw
-                                    </button>
-                                </h2>
-                                <div id="collapseNahw" class="accordion-collapse collapse" aria-labelledby="headingNahw" data-bs-parent="#accordionNahw">
-                                    <div class="accordion-body">
-                                    <strong>Welcome to the Nahw section of NM</strong>
-                                    </div>
-                                    <!-- start Nahw items accordion -->
-                                    <div class="accordion" id="accordionNahwItems">
-                                        <!-- start Nahw item 1 -->
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="headingNahw1">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNahw1" aria-expanded="false" aria-controls="collapseNahw1">
-                                                Nahw item 1
-                                                </button>
-                                            </h2>
-                                            <div id="collapseNahw1" class="accordion-collapse collapse" aria-labelledby="headingNahw1" data-bs-parent="#accordionNahwItems">
-                                                <div class="accordion-body">
-                                                <strong>Nahw item 1</strong>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- end Nahw item 1 -->
-                                    </div>
-                                    <!-- end Nahw items accordion -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end Nahw accordion -->
-                        <!-- start Sarf accordion -->
-                        <div class="accordion" id="accordionSarf">
-                            <!-- start Sarf item -->
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingSarf">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSarf" aria-expanded="false" aria-controls="collapseSarf">
-                                    Sarf
-                                    </button>
-                                </h2>
-                                <div id="collapseSarf" class="accordion-collapse collapse" aria-labelledby="headingSarf" data-bs-parent="#accordionSarf">
-                                    <div class="accordion-body">
-                                    <strong>Welcome to the Sarf section of NM</strong>
-                                    </div>
-                                    <!-- start Sarf items accordion -->
-                                    <div class="accordion" id="accordionSarfItems">
-                                        <!-- start Sarf item 1 -->
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="headingSarf1">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSarf1" aria-expanded="false" aria-controls="collapseSarf1">
-                                                Sarf item 1
-                                                </button>
-                                            </h2>
-                                            <div id="collapseSarf1" class="accordion-collapse collapse" aria-labelledby="headingSarf1" data-bs-parent="#accordionSarfItems">
-                                                <div class="accordion-body">
-                                                <strong>Sarf item 1</strong>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- end Sarf item 1 -->
-                                        <!-- start Sarf item 2 -->
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="headingSarf2">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSarf2" aria-expanded="false" aria-controls="collapseSarf2">
-                                                Sarf item 2
-                                                </button>
-                                            </h2>
-                                            <div id="collapseSarf2" class="accordion-collapse collapse" aria-labelledby="headingSarf2" data-bs-parent="#accordionSarfItems">
-                                                <div class="accordion-body">
-                                                <strong>Sarf item 2</strong>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- end Sarf item 2 -->
-                                    </div>
-                                    <!-- end Sarf items accordion -->
-                                </div>
-                            </div>
-                            <!-- end Sarf item -->
-                        </div>
-                        <!-- end Sarf accordion -->
-                      </div>
-                    </div>
-                </div>
-                <!-- end nahw item -->
-            </div>
-            <!-- end arabic accordion -->
-            <!-- start Quran accordion -->
-            <div class="accordion" id="accordionQuran">
-                <!-- start nahw item -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingQuran">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseQuran" aria-expanded="false" aria-controls="collapseQuran">
-                        Quran
-                      </button>
-                    </h2>
-                    <div id="collapseQuran" class="accordion-collapse collapse" aria-labelledby="headingQuran" data-bs-parent="#accordionQuran">
-                      <div class="accordion-body">
-                        <strong>Welcome to the Quran section of NM</strong>
-                        <!-- start Fatiha accordion -->
-                        <div class="accordion" id="accordionFatiha">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingFatiha">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFatiha" aria-expanded="false" aria-controls="collapseFatiha">
-                                    Fatiha
-                                    </button>
-                                </h2>
-                                <div id="collapseFatiha" class="accordion-collapse collapse" aria-labelledby="headingFatiha" data-bs-parent="#accordionFatiha">
-                                    <div class="accordion-body">
-                                    <strong>Welcome to the Fatiha section of NM</strong>
-                                    </div>
-                                    <!-- start Fatiha Ayat accordion -->
-                                    <div class="accordion" id="accordionFatihaAyat">
-                                        <!-- start Fatiha Ayah 1 -->
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="headingFatiha1">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFatiha1" aria-expanded="false" aria-controls="collapseFatiha1">
-                                                Fatiha Ayah 1
-                                                </button>
-                                            </h2>
-                                            <div id="collapseFatiha1" class="accordion-collapse collapse" aria-labelledby="headingFatiha1" data-bs-parent="#accordionFatihaAyat">
-                                                <div class="accordion-body">
-                                                <strong>Fatiha Ayah 1</strong>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- end Fatiha Ayah 1 -->
-                                    </div>
-                                    <!-- end Fatiha Ayat accordion -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end Fatiha accordion -->
-                        <!-- start Duha accordion -->
-                        <div class="accordion" id="accordionDuha">
-                            <!-- start Duha Ayah -->
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingDuha">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDuha" aria-expanded="false" aria-controls="collapseDuha">
-                                    Duha
-                                    </button>
-                                </h2>
-                                <div id="collapseDuha" class="accordion-collapse collapse" aria-labelledby="headingDuha" data-bs-parent="#accordionDuha">
-                                    <div class="accordion-body">
-                                    <strong>Welcome to the Duha section of NM</strong>
-                                    </div>
-                                    <!-- start Duha Ayat accordion -->
-                                    <div class="accordion" id="accordionDuhaAyat">
-                                        <!-- start Duha Ayah 1 -->
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="headingDuha1">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDuha1" aria-expanded="false" aria-controls="collapseDuha1">
-                                                Duha Ayah 1
-                                                </button>
-                                            </h2>
-                                            <div id="collapseDuha1" class="accordion-collapse collapse" aria-labelledby="headingDuha1" data-bs-parent="#accordionDuhaAyat">
-                                                <div class="accordion-body">
-                                                <strong>Duha Ayah 1</strong>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- end Duha Ayah 1 -->
-                                        <!-- start Duha Ayah 2 -->
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="headingDuha2">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDuha2" aria-expanded="false" aria-controls="collapseDuha2">
-                                                Duha Ayah 2
-                                                </button>
-                                            </h2>
-                                            <div id="collapseDuha2" class="accordion-collapse collapse" aria-labelledby="headingDuha2" data-bs-parent="#accordionDuhaAyat">
-                                                <div class="accordion-body">
-                                                <strong>Duha Ayah 2</strong>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- end Duha Ayah 2 -->
-                                    </div>
-                                    <!-- end Duha Ayat accordion -->
-                                </div>
-                            </div>
-                            <!-- end Duha Ayat -->
-                        </div>
-                        <!-- end Duha accordion -->
-                      </div>
-                    </div>
-                </div>
-                <!-- end nahw item -->
-            </div>
-            <!-- end Quran accordion -->
-            <!-- start Seerah item -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingSeerah">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeerah" aria-expanded="false" aria-controls="collapseSeerah">
-                    Seerah
-                </button>
-                </h2>
-                <div id="collapseSeerah" class="accordion-collapse collapse" aria-labelledby="headingSeerah" data-bs-parent="#accordionSeerah">
-                <div class="accordion-body">
-                    <strong>Welcome to the Seerah section of NM.</strong>
-                    <!-- start Seerah accordion -->
-                    <div class="accordion" id="accordionSeerah">
-                    <!-- start seerah1 item -->
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingSeerah1">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeerah1" aria-expanded="false" aria-controls="collapseSeerah1">
-                            Seerah 1
-                        </button>
-                        </h2>
-                        <div id="collapseSeerah1" class="accordion-collapse collapse" aria-labelledby="headingSeerah1" data-bs-parent="#accordionSeerah">
-                        <div class="accordion-body">
-                            <strong>Seerah 1</strong>
-                        </div>
-                        </div>
-                    </div>
-                    <!-- end Seerah1 item -->
-                    </div>
-                    <!-- end Seerah accordion -->
-                </div>
-                </div>
-            </div>
-            <!-- end Seerah item -->
-            <!-- start Ahadith item -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingAhadith">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAhadith" aria-expanded="false" aria-controls="collapseAhadith">
-                    Ahadith
-                </button>
-                </h2>
-                <div id="collapseAhadith" class="accordion-collapse collapse" aria-labelledby="headingAhadith" data-bs-parent="#accordionAhadith">
-                <div class="accordion-body">
-                    <strong>Welcome to the Ahadith section of NM.</strong>
-                    <!-- start Ahadith accordion -->
-                    <div class="accordion" id="accordionAhadith">
-                    <!-- start Ahadith1 item -->
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingAhadith1">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAhadith1" aria-expanded="false" aria-controls="collapseAhadith1">
-                            Ahadith 1
-                        </button>
-                        </h2>
-                        <div id="collapseAhadith1" class="accordion-collapse collapse" aria-labelledby="headingAhadith1" data-bs-parent="#accordionAhadith">
-                        <div class="accordion-body">
-                            <strong>Ahadith 1</strong>
-                        </div>
-                        </div>
-                    </div>
-                    <!-- end Ahadith1 item -->
-                    </div>
-                    <!-- end Ahadith accordion -->
-                </div>
-                </div>
-            </div>
-            <!-- end Ahadith item -->
-          </div>
-        </div>
-      </div>
-      <!-- end faith item -->
-      <!-- start about item -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingAbout">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbout" aria-expanded="false" aria-controls="collapseAbout">
-            About
-          </button>
-        </h2>
-        <div id="collapseAbout" class="accordion-collapse collapse" aria-labelledby="headingAbout" data-bs-parent="#accordionMain">
-          <div class="accordion-body">
-            <strong>About NM.</strong>
-          </div>
-        </div>
-      </div>
-      <!-- end about item -->
+      <nav aria-label="observations pagination">
+        <ul class="pagination justify-content-end">
+          <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1">Previous</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
     </div>
-    <!-- end main accordion -->
+    <!-- end observation collapse body -->
+    <br>
+    <!-- start arabic collapse button -->
+    <p>
+        <a class="btn btn-primary mainblog" blog-data-type="arabic" data-bs-toggle="collapse" href="#arabicCollapse" role="button" aria-expanded="false" aria-controls="arabicCollapse">
+            Arabic
+        </a>
+    </p>
+    <!-- end arabic collapse button -->
+    <!-- start arabic collapse body -->
+    <div class="collapse" id="arabicCollapse">
+      <form class="d-flex" id="arabicSearch">
+        <input disabled class="form-control me-2" type="search" placeholder="Search by title -- Currently not available" aria-label="Search">
+        <button disabled class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <div class="card card-body">
+        <p>
+            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </p>
+        <!-- start arabicblog collapse button -->
+        <p>
+            <a class="btn btn-primary blogpost" blog-data-id="arabic1" data-bs-toggle="collapse" href="#arabicblogCollapse" role="button" aria-expanded="false" aria-controls="arabicblogCollapse">
+                Blog 1
+            </a>
+        </p>
+        <!-- end arabicblog collapse button -->
+        <!-- start arabicblog collapse body -->
+        <div class="collapse" id="arabicblogCollapse">
+          <div class="card card-body">
+            <p>
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            </p>
+          </div>
+        </div>
+        <br>
+        <!-- end arabicblog collapse body -->
+      </div>
+      <nav aria-label="arabic pagination">
+        <ul class="pagination justify-content-end">
+          <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1">Previous</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- end arabic collapse body -->
+    <br>
+    <!-- start quran collapse button -->
+    <p>
+        <a class="btn btn-primary mainblog" blog-data-type="quran" data-bs-toggle="collapse" href="#quranCollapse" role="button" aria-expanded="false" aria-controls="quranCollapse">
+            Quran
+        </a>
+    </p>
+    <!-- end quran collapse button -->
+    <!-- start quran collapse body -->
+    <div class="collapse" id="quranCollapse">
+      <form class="d-flex" id="quranSearch">
+        <input disabled class="form-control me-2" type="search" placeholder="Search by title -- Currently not available" aria-label="Search">
+        <button disabled class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <div class="card card-body">
+        <p>
+            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </p>
+        <!-- start quranblog collapse button -->
+        <p>
+            <a class="btn btn-primary blogpost" blog-data-id="quran1" data-bs-toggle="collapse" href="#quranblogCollapse" role="button" aria-expanded="false" aria-controls="quranblogCollapse">
+                Blog 1
+            </a>
+        </p>
+        <!-- end quranblog collapse button -->
+        <!-- start quranblog collapse body -->
+        <div class="collapse" id="quranblogCollapse">
+          <div class="card card-body">
+            <p>
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            </p>
+          </div>
+        </div>
+        <br>
+        <!-- end quranblog collapse body -->
+      </div>
+      <nav aria-label="quran pagination">
+        <ul class="pagination justify-content-end">
+          <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1">Previous</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- end quran collapse body -->
+    <br>
+    <!-- start seerah collapse button -->
+    <p>
+        <a class="btn btn-primary mainblog" blog-data-type="seerah" data-bs-toggle="collapse" href="#seerahCollapse" role="button" aria-expanded="false" aria-controls="seerahCollapse">
+            Seerah
+        </a>
+    </p>
+    <!-- end seerah collapse button -->
+    <!-- start seerah collapse body -->
+    <div class="collapse" id="seerahCollapse">
+      <form class="d-flex" id="seerahSearch">
+        <input disabled class="form-control me-2" type="search" placeholder="Search by title -- Currently not available" aria-label="Search">
+        <button disabled class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <div class="card card-body">
+        <p>
+            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </p>
+        <!-- start seerahblog collapse button -->
+        <p>
+            <a class="btn btn-primary blogpost" blog-data-id="seerah1" data-bs-toggle="collapse" href="#seerahblogCollapse" role="button" aria-expanded="false" aria-controls="seerahblogCollapse">
+                Blog 1
+            </a>
+        </p>
+        <!-- end seerahblog collapse button -->
+        <!-- start seerahblog collapse body -->
+        <div class="collapse" id="seerahblogCollapse">
+          <div class="card card-body">
+            <p>
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            </p>
+          </div>
+        </div>
+        <!-- end seerahblog collapse body -->
+        <br>
+      </div>
+      <nav aria-label="seerah pagination">
+        <ul class="pagination justify-content-end">
+          <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1">Previous</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- end seerah collapse body -->
+    <br>
+    <!-- start ahadith collapse button -->
+    <p>
+        <a class="btn btn-primary mainblog" blog-data-type="ahadith" data-bs-toggle="collapse" href="#ahadithCollapse" role="button" aria-expanded="false" aria-controls="ahadithCollapse">
+            Ahadith
+        </a>
+    </p>
+    <!-- end ahadith collapse button -->
+    <!-- start ahadith collapse body -->
+    <div class="collapse" id="ahadithCollapse">
+      <form class="d-flex" id="ahadithSearch">
+        <input disabled class="form-control me-2" type="search" placeholder="Search by title -- Currently not available" aria-label="Search">
+        <button disabled class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <div class="card card-body">
+        <p>
+            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </p>
+        <!-- start ahadithblog collapse button -->
+        <p>
+            <a class="btn btn-primary blogpost" blog-data-id="ahadith1" data-bs-toggle="collapse" href="#ahadithblogCollapse" role="button" aria-expanded="false" aria-controls="ahadithblogCollapse">
+                Blog 1
+            </a>
+        </p>
+        <!-- end ahadithblog collapse button -->
+        <!-- start ahadithblog collapse body -->
+        <div class="collapse" id="ahadithblogCollapse">
+          <div class="card card-body">
+            <p>
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            </p>
+          </div>
+        </div>
+        <!-- end ahadithblog collapse body -->
+        <br>
+      </div>
+      <nav aria-label="ahadith pagination">
+        <ul class="pagination justify-content-end">
+          <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1">Previous</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+          <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- end ahadith collapse body -->
+    <br>
   </body>
 </html>
