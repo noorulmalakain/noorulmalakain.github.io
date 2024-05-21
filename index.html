@@ -17,40 +17,20 @@
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/script.js"></script>
 
-    <!-- start observation collapse button -->
+    <!-- start observations collapse button -->
     <p>
-        <a class="btn btn-primary mainblog" blog-data-type="observations" blog-data-id="0" data-bs-toggle="collapse" href="#observationCollapse" role="button" aria-expanded="false" aria-controls="observationCollapse">
+        <a class="btn btn-primary mainblog" blog-data-type="observations" blog-data-id="0" data-bs-toggle="collapse" href="#observationsCollapse" role="button" aria-expanded="false" aria-controls="observationsCollapse">
           Observations
         </a>
     </p>
-    <!-- end observation collapse button -->
-    <!-- start observation collapse body -->
-    <div class="collapse" id="observationCollapse">
-      <form class="d-flex" id="observationSearch">
+    <!-- end observations collapse button -->
+    <!-- start observations collapse body -->
+    <div class="collapse" id="observationsCollapse">
+      <form class="d-flex" id="observationsSearch">
         <input disabled class="form-control me-2" type="search" placeholder="Search by title -- Currently not available" aria-label="Search">
         <button disabled class="btn btn-outline-success" type="submit">Search</button>
       </form>
-      <div class="card card-body">
-        <!-- start observationblog collapse button -->
-        <p>
-          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-        </p>
-        <p>
-            <a class="btn btn-primary blogpost" blog-data-type="observations" blog-data-id="obs1" data-bs-toggle="collapse" href="#observationblogCollapse" role="button" aria-expanded="false" aria-controls="observationblogCollapse">
-                Blog 1
-            </a>
-        </p>
-        <!-- end observationblog collapse button -->
-        <!-- start observationblog collapse body -->
-        <div class="collapse" id="observationblogCollapse">
-          <div class="card card-body">
-            <p>
-              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-            </p>
-          </div>
-        </div>
-        <br>
-        <!-- end observationblog collapse body -->
+      <div class="card card-body" id="observationsCardBody">
       </div>
       <nav aria-label="observations pagination">
         <ul class="pagination justify-content-end">
@@ -62,7 +42,7 @@
         </ul>
       </nav>
     </div>
-    <!-- end observation collapse body -->
+    <!-- end observations collapse body -->
     <br>
     <!-- start arabic collapse button -->
     <p>
@@ -77,27 +57,7 @@
         <input disabled class="form-control me-2" type="search" placeholder="Search by title -- Currently not available" aria-label="Search">
         <button disabled class="btn btn-outline-success" type="submit">Search</button>
       </form>
-      <div class="card card-body">
-        <p>
-            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-        </p>
-        <!-- start arabicblog collapse button -->
-        <p>
-            <a class="btn btn-primary blogpost" blog-data-type="arabic" blog-data-id="arabic1" data-bs-toggle="collapse" href="#arabicblogCollapse" role="button" aria-expanded="false" aria-controls="arabicblogCollapse">
-                Blog 1
-            </a>
-        </p>
-        <!-- end arabicblog collapse button -->
-        <!-- start arabicblog collapse body -->
-        <div class="collapse" id="arabicblogCollapse">
-          <div class="card card-body">
-            <p>
-                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-            </p>
-          </div>
-        </div>
-        <br>
-        <!-- end arabicblog collapse body -->
+      <div class="card card-body" id="arabicCardBody">
       </div>
       <nav aria-label="arabic pagination">
         <ul class="pagination justify-content-end">
@@ -124,27 +84,7 @@
         <input disabled class="form-control me-2" type="search" placeholder="Search by title -- Currently not available" aria-label="Search">
         <button disabled class="btn btn-outline-success" type="submit">Search</button>
       </form>
-      <div class="card card-body">
-        <p>
-            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-        </p>
-        <!-- start quranblog collapse button -->
-        <p>
-            <a class="btn btn-primary blogpost" blog-data-type="quran" blog-data-id="quran1" data-bs-toggle="collapse" href="#quranblogCollapse" role="button" aria-expanded="false" aria-controls="quranblogCollapse">
-                Blog 1
-            </a>
-        </p>
-        <!-- end quranblog collapse button -->
-        <!-- start quranblog collapse body -->
-        <div class="collapse" id="quranblogCollapse">
-          <div class="card card-body">
-            <p>
-                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-            </p>
-          </div>
-        </div>
-        <br>
-        <!-- end quranblog collapse body -->
+      <div class="card card-body" id="quranCardBody">
       </div>
       <nav aria-label="quran pagination">
         <ul class="pagination justify-content-end">
@@ -171,27 +111,7 @@
         <input disabled class="form-control me-2" type="search" placeholder="Search by title -- Currently not available" aria-label="Search">
         <button disabled class="btn btn-outline-success" type="submit">Search</button>
       </form>
-      <div class="card card-body">
-        <p>
-            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-        </p>
-        <!-- start seerahblog collapse button -->
-        <p>
-            <a class="btn btn-primary blogpost" blog-data-type="seerah" blog-data-id="seerah1" data-bs-toggle="collapse" href="#seerahblogCollapse" role="button" aria-expanded="false" aria-controls="seerahblogCollapse">
-                Blog 1
-            </a>
-        </p>
-        <!-- end seerahblog collapse button -->
-        <!-- start seerahblog collapse body -->
-        <div class="collapse" id="seerahblogCollapse">
-          <div class="card card-body">
-            <p>
-                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-            </p>
-          </div>
-        </div>
-        <!-- end seerahblog collapse body -->
-        <br>
+      <div class="card card-body" id="seerahCardBody">
       </div>
       <nav aria-label="seerah pagination">
         <ul class="pagination justify-content-end">
@@ -218,27 +138,7 @@
         <input disabled class="form-control me-2" type="search" placeholder="Search by title -- Currently not available" aria-label="Search">
         <button disabled class="btn btn-outline-success" type="submit">Search</button>
       </form>
-      <div class="card card-body">
-        <p>
-            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-        </p>
-        <!-- start ahadithblog collapse button -->
-        <p>
-            <a class="btn btn-primary blogpost" blog-data-type="ahadith" blog-data-id="ahadith1" data-bs-toggle="collapse" href="#ahadithblogCollapse" role="button" aria-expanded="false" aria-controls="ahadithblogCollapse">
-                Blog 1
-            </a>
-        </p>
-        <!-- end ahadithblog collapse button -->
-        <!-- start ahadithblog collapse body -->
-        <div class="collapse" id="ahadithblogCollapse">
-          <div class="card card-body">
-            <p>
-                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-            </p>
-          </div>
-        </div>
-        <!-- end ahadithblog collapse body -->
-        <br>
+      <div class="card card-body" id="ahadithCardBody">
       </div>
       <nav aria-label="ahadith pagination">
         <ul class="pagination justify-content-end">
